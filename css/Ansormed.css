@@ -1,0 +1,169 @@
+/* header CSS */
+
+.logo-img {
+  position: absolute;
+  width: 50px;
+  height: 49.94px;
+  left: 0px;
+  top: 8px;
+
+}
+.site-header {
+  width: 1440px;
+  height: 97.94px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #fff;
+
+}
+
+.logo-img {
+  position: absolute;
+  width: 50px;
+  height: 49.94px;
+  left: 0px;
+  top: 8px;
+
+}
+
+.link-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.hero-div {
+  display: flex;
+  align-items: center;
+}
+
+.header-ul {
+ list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: stretch;
+
+}
+/* linklar */
+.link {
+  text-decoration: none;
+
+  font-family: Open Sans;
+  font-style: normal;
+
+  color: #222222;
+}
+
+.link1 {
+  width: 119px;
+  height: 33px;
+  left: 66px;
+  top: 8px;
+  font-weight: 600;
+font-size: 24px;
+line-height: 33px;
+
+}
+
+.link2 {
+  position: static;
+  width: 96px;
+  height: 21px;
+  left: 0px;
+  top: 0px;
+   font-family: Open Sans;
+
+
+.link3 {
+  position: static;
+  width: 75px;
+  height: 21px;
+  left: 128px;
+  top: 0px;
+   font-family: Open Sans;
+
+
+}
+.link4 {
+  position: static;
+  width: 41px;
+  height: 21px;
+  left: 235px;
+  top: 0px;
+   font-family: Open Sans;
+}
+
+.link5 {
+  position: static;
+width: 112px;
+height: 21px;
+left: 308px;
+top: 0px;
+ font-family: Open Sans;
+
+}
+
+.link6 {
+  position: static;
+width: 45px;
+height: 21px;
+left: 452px;
+top: 0px;
+ font-family: Open Sans;
+
+}
+
+.linkr {
+
+  position: static;
+  width: 45px;
+  height: 21px;
+  left: 452px;
+  top: 0px;
+
+  font-family: Open Sans Condensed;
+;
+font-weight: bold;
+font-size: 15px;
+line-height: 150%;
+letter-spacing: 2px;
+text-transform: uppercase;
+
+
+}
+
+/* A SECTION */
+
+.hero {
+
+  position: absolute;
+  width: 1440px;
+  height: 533px;
+  left: 0px;
+  top: 98px;
+  background-color: #0eb4c1;
+}
+
+.hero-heading {
+  position: absolute;
+width: 500px;
+height: 86px;
+left: 170px;
+top: 218px;
+font-family: Open Sans Condensed;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 120%;
+
+}
+.hero-img {
+  position: absolute;
+  width: 423px;
+  height: 504px;
+  left: 847px;
+  top: 127px;
+
+}
