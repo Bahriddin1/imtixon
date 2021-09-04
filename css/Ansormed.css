@@ -24,23 +24,18 @@
   height: 49.94px;
   left: 0px;
   top: 8px;
-
 }
-
 .link-div {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
-
 .hero-div {
   display: flex;
   align-items: center;
 }
-
 .header-ul {
- list-style-type: none;
+  list-style-type: none;
   display: flex;
   align-items: center;
   justify-content: stretch;
@@ -55,15 +50,14 @@
 
   color: #222222;
 }
-
 .link1 {
   width: 119px;
   height: 33px;
   left: 66px;
   top: 8px;
   font-weight: 600;
-font-size: 24px;
-line-height: 33px;
+  font-size: 24px;
+  line-height: 33px;
 
 }
 
@@ -73,18 +67,15 @@ line-height: 33px;
   height: 21px;
   left: 0px;
   top: 0px;
-   font-family: Open Sans;
-
-
+  font-family: Open Sans;
+}
 .link3 {
   position: static;
   width: 75px;
   height: 21px;
   left: 128px;
   top: 0px;
-   font-family: Open Sans;
-
-
+  font-family: Open Sans;
 }
 .link4 {
   position: static;
@@ -92,78 +83,257 @@ line-height: 33px;
   height: 21px;
   left: 235px;
   top: 0px;
-   font-family: Open Sans;
+  font-family: Open Sans;
 }
-
 .link5 {
   position: static;
-width: 112px;
-height: 21px;
-left: 308px;
-top: 0px;
- font-family: Open Sans;
-
-}
-
-.link6 {
-  position: static;
-width: 45px;
-height: 21px;
-left: 452px;
-top: 0px;
- font-family: Open Sans;
-
-}
-
-.linkr {
-
-  position: static;
-  width: 45px;
+  width: 112px;
   height: 21px;
-  left: 452px;
+  left: 308px;
   top: 0px;
+  font-family: Open Sans;}
 
-  font-family: Open Sans Condensed;
-;
-font-weight: bold;
-font-size: 15px;
-line-height: 150%;
-letter-spacing: 2px;
-text-transform: uppercase;
+  .link6 {
+    position: static;
+    width: 45px;
+    height: 21px;
+    left: 452px;
+    top: 0px;
+    font-family: Open Sans;
+  }
+  .linkr {
+    position: static;
+    width: 200px;
+    height: 21px;
+    left: 452px;
+    top: 0px;
+    font-family: Open Sans Condensed;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 
+  }
+  /* A SECTION */
+  .hero {
+    position: absolute;
+    width: 1440px;
+    height: 533px;
+    left: 0px;
+    top: 98px;
+    background-color: #0eb4c1;
+  }
+  .hero-heading {
+    position: absolute;
+    width: 500px;
+    height: 86px;
+    left: 170px;
+    top: 120px;
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 120%;
+  }
+  .hero-text {
+    position: absolute;
+    width: 440px;
+    height: 108px;
+    left: 170px;
+    top: 230px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+  }
+  .linkhero {
+    position: absolute;
+    width: 189px;
+    height: 47px;
+    left: 170px;
+    top: 400px;
+  }
+  .hero-img {
+    position: absolute;
+    width: 423px;
+    height: 504px;
+    left: 847px;
+    top: 30px;}
+
+    /* FEATURES */
+
+    .features {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0px;
+      position: absolute;
+      width: 970px;
+      height: 1040px;
+      left: 200px;
+      top: 800px;
+
+
+    }
+    .features-heading{
+      position: absolute;
+      width: 133px;
+      height: 43px;
+      left: 450px;
+      top: -100px;
+      font-family: Open Sans Condensed;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 120%;
+      color: #000000;
+
+    }
+    .features-ul {
+      list-style-type: none;
+
+
+    }
+    .features-li {
+      display: flex;
+
+    }
+    .services-heading {
+      position: static;
+      left: 0px;
+      top: 0px;
+      font-family: Open Sans Condensed;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 120%;
+      color: #000;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+      margin: 24px 0px;
+    }
+
+    .services-text {
+      position: static;
+      left: 0;
+      top: 0;
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 150%;
+      color: #000;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+      margin: 24px 0px;
+    }
+    .services-img {
+      position: static;
+      width: 200px;
+      height: 200px;
+      left: 0px;
+      top: 0px;
+      background: url(image.png);
+      box-shadow: 0px 12px 24px -8px rgba(0, 107, 116, 0.3);
+      border-radius: 24px;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+      margin: 0px 64px;
+    }
+    .hijoma-heading {
+
+      width: 67px;
+      height: 29px;
+
+    }
+    .manual-heading {
+
+      width: 200px;
+      height: 29px;
+
+
+    }
+    .zuluk-heading {
+      width: 195px;
+      height: 29px;
+    }
+    .tabiiy-heading {
+      width: 192px;
+      height: 29px;
+    }
+
+
+    .phone{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      position: absolute;
+      width: 1440px;
+      height: 253px;
+      left: 1px;
+      top: 2117px;
+      background-color: #0EB4C1;
+
+    }
+
+    .call {
+
+      position: static;
+      width: 146px;
+      height: 18px;
+      left: 400px;
+      top: 12px;
+      font-family: Open Sans Condensed;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 15px;
+      line-height: 120%;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #FFFFFF
+    }
+    .telegram {
+      position: static;
+      width: 166px;
+      height: 18px;
+      left: 100px;
+      top: 12px;
+
+      font-family: Open Sans Condensed;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 15px;
+      line-height: 120%;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+
+    }
+.footer {
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 24px;
+
+position: absolute;
+width: 1394px;
+height: 97.94px;
+left: 0px;
+top: 2360px;
+  background-color: #222;
 
 }
+.footer-link {
+  text-decoration: none;
 
-/* A SECTION */
-
-.hero {
-
-  position: absolute;
-  width: 1440px;
-  height: 533px;
-  left: 0px;
-  top: 98px;
-  background-color: #0eb4c1;
-}
-
-.hero-heading {
-  position: absolute;
-width: 500px;
-height: 86px;
-left: 170px;
-top: 218px;
-font-family: Open Sans Condensed;
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 120%;
-
-}
-.hero-img {
-  position: absolute;
-  width: 423px;
-  height: 504px;
-  left: 847px;
-  top: 127px;
-
+  font-family: Open Sans;
+  font-style: normal;
+  color: #fff;
 }
