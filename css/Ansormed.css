@@ -52,8 +52,40 @@
   color: #000000;
 
 }
+.linkr:hover {
+  background-color: #fff;
+  color: rgb(197, 8, 40);
+}
 .link:hover {
   color: rgb(197, 8, 40);
+}
+.footer-link:hover {
+  color: rgb(197, 8, 40);
+}
+.telegram:hover {
+  background-color: #de2e54;
+  border-color: #de2e54;
+}
+.call:hover {
+  background-color: #de2e54;
+  border-color: #de2e54;
+}
+
+.link:visited{
+color: #f8829b;
+}
+.linkr:visited {
+  color: #fff;
+  background-color: #f8829b;
+}
+.footer-link:visited {
+  color: #f8829b;
+}
+.call:visited{
+  background-color: #de2e54;
+}
+.telegram:visited {
+  background-color: #de2e54;
 }
 .link-ansormed {
   width: 119px;
@@ -131,10 +163,7 @@
     text-transform: uppercase;
 
   }
-  .linkr:hover {
-    background-color: #fff;
-    color: rgb(197, 8, 40);
-  }
+
   /* A SECTION */
   .hero {
     position: absolute;
@@ -394,13 +423,9 @@
       font-style: normal;
       color: #fff;
     }
-    .footer-link:hover {
-      color: rgb(197, 8, 40);
-    }
-    .footer-link-div {
-      color: #fff;
-      display: flex;align-items: center;justify-content: center;
-    }
+
+
+
     .logoimg {
       left: 210px;
       top: 45px;
@@ -408,8 +433,3 @@
       width: 50px;
       height: 49.94px;
     }
-
-    a:visited {
-      color: #ec889e;
-      background-color:#ec889e ;
-      }
