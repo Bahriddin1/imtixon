@@ -408,3 +408,8 @@
       width: 50px;
       height: 49.94px;
     }
+
+    a:visited {
+      color: #ec889e;
+      background-color:#ec889e ;
+      }
